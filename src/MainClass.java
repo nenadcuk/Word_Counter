@@ -10,6 +10,7 @@ public class MainClass {
 
         JFrame jFrame = new JFrame("Word Counter App");
         jFrame.setLayout(null);
+        jFrame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         jFrame.setBounds(700, 300, 500, 500);
         jFrame.setVisible(true);
 
